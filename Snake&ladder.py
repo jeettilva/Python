@@ -1,0 +1,32 @@
+import random
+import time
+
+print("Player 1")
+num1 = random.randint(1, 6)
+print("Dice number of player 1: ", num1)
+print(" ")
+print(" ")
+time.sleep(3)
+
+print("Player 2")
+num2 = random.randint(1, 6)
+print("Dice number of player 2: ", num2)
+print(" ")
+print(" ")
+time.sleep(3) 
+print("Player 3")
+num3 = random.randint(1, 6)
+print("Dice number of player 3: ", num3)
+print(" ")
+print(" ")
+time.sleep(3) 
+print("Player 4")
+num4 = random.randint(1, 6)
+print("Dice number of player 4: ", num4)
+print(" ")
+print(" ")
+time.sleep(3)
+
+print("_ Run Again to play _")
+print("_ Thank you for playing _")
+time.sleep(3)
